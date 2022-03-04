@@ -1,0 +1,54 @@
+2021-10-10 10:13:20 DEBUG LogFactory:161 - Use [Slf4j] Logger As Default.
+2021-10-10 10:13:20 DEBUG SettingLoader:80 - Load setting file [file:/Users/bytedance/SUST/da-ka/target/classes/config/mail.setting]
+2021-10-10 10:13:22 ERROR EmailUtil:24 - fail to send email, time is {2021-10-10 10:13:22}, email is {2415357472@qq.com}, title is {易班假期打卡成功!}, content is {罗东,易班假期打卡打卡成功。
+2021-10-10 10:13:20}
+cn.hutool.extra.mail.MailException: AuthenticationFailedException: 550 User has no permission
+
+	at cn.hutool.extra.mail.Mail.send(Mail.java:383)
+	at cn.hutool.extra.mail.MailUtil.send(MailUtil.java:415)
+	at cn.hutool.extra.mail.MailUtil.send(MailUtil.java:142)
+	at cn.hutool.extra.mail.MailUtil.send(MailUtil.java:125)
+	at cn.hutool.extra.mail.MailUtil.send(MailUtil.java:66)
+	at com.add.util.EmailUtil.send(EmailUtil.java:19)
+	at com.add.domain.Clock.sendSuccessEmail(Clock.java:129)
+	at com.add.domain.Clock.clockAndSendEmail(Clock.java:91)
+	at com.add.Main1.main(Main1.java:65)
+Caused by: javax.mail.AuthenticationFailedException: 550 User has no permission
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at cn.hutool.extra.mail.Mail.doSend(Mail.java:397)
+	at cn.hutool.extra.mail.Mail.send(Mail.java:375)
+	... 8 more
+2021-10-10 10:13:23 ERROR EmailUtil:24 - fail to send email, time is {2021-10-10 10:13:23}, email is {2415357472@qq.com}, title is {易班假期打卡成功!}, content is {刘凡,易班假期打卡打卡成功。
+2021-10-10 10:13:23}
+cn.hutool.extra.mail.MailException: AuthenticationFailedException: 550 User has no permission
+
+	at cn.hutool.extra.mail.Mail.send(Mail.java:383)
+	at cn.hutool.extra.mail.MailUtil.send(MailUtil.java:415)
+	at cn.hutool.extra.mail.MailUtil.send(MailUtil.java:142)
+	at cn.hutool.extra.mail.MailUtil.send(MailUtil.java:125)
+	at cn.hutool.extra.mail.MailUtil.send(MailUtil.java:66)
+	at com.add.util.EmailUtil.send(EmailUtil.java:19)
+	at com.add.domain.Clock.sendSuccessEmail(Clock.java:129)
+	at com.add.domain.Clock.clockAndSendEmail(Clock.java:91)
+	at com.add.Main1.main(Main1.java:65)
+Caused by: javax.mail.AuthenticationFailedException: 550 User has no permission
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at cn.hutool.extra.mail.Mail.doSend(Mail.java:397)
+	at cn.hutool.extra.mail.Mail.send(Mail.java:375)
+	... 8 more

@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "url_generate_date": "2021-06-21",
+            "email": "2415357472@qq.com",
+            "name": "罗东",
+            "id": "1",
+            "url": "http://yiban.sust.edu.cn/v4/public/index.php?key=nfMmn/XldNdqXpA7sHGT1fkRFdX9_BIfWmTWrZOvGR8l_m2e4iTuMdiMFn0Q_vr3XF6ycpfjWmkr_zkGLhgcguU1zJAHr83QjmBWtDA/Yie3ivMF03RNQlXlA8jyCN5zTqn_ojz//9H0IRrc7f0u3aWT8590NZRq2ror8i36Z08=",
+            "location": "陕西省 西安市 未央区 111县道 111县 靠近北城驾校",
+            "morning_click": true,
+            "noon_click": true,
+            "summer_click": true,
+            "send_email":true
+        },
+        {
+            "url_generate_date": "2021-06-21",
+            "email": "2415357472@qq.com",
+            "name": "刘凡",
+            "id": "1",
+            "url": "http://yiban.sust.edu.cn/v4/public/index.php?key=iLXy_kFxNY4OnbkWVvmmW_HRp9ZymX_J/nQp/pp04lOeQMsyV9Emn50Dt3f7UFyQotb_fMYKbknM6HmzI4xq022_ZdWGU3fKnGnO/Dy85ik1QEFw2k0C0da6EjC_oHptcbIPH8yoYn95o9fZ8rDxaZaXMRmQrZbVMGXqBDkZIzA=",
+            "location": "陕西省 西安市 未央区 111县道 111县 靠近北城驾校",
+            "morning_click": true,
+            "noon_click": true,
+            "summer_click": true,
+            "send_email":true
+        }
+    ]
+}
